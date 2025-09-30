@@ -46,3 +46,12 @@ div h2 { font-size: 1.6rem; margin: 0; }
 .task4 p,
 .task4 em { margin: 0.5em 0; }
 .task4 em { color: gray; }
+
+/* Task 5 */
+.task5 h1,
+.task5 strong { color: purple; }
+.task5 p,
+.task5 em { margin: 0.5em 0; }
+.task5 em { color: gray; }
+.task5 abbr { color: green;}
+.task5 time { color: green; }
