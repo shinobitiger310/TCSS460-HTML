@@ -1,33 +1,48 @@
-.task1 body {
+/* Global */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
   background-color: white;
-  color: #333333;
-  font:
-    1em / 1.4 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
+  color: #333;
+  font: 1em/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 1em;
   margin: 0;
 }
 
-.task1 h1 {
-  font-size: 2rem;
-  margin: 0;
+/* Base for all task sections */
+div {
+  border: 2px solid black;
+  padding: 1em;
+  margin: 1em 0;
+  border-radius: 8px;
 }
+div h1 { font-size: 2rem; margin: 0; }
+div h2 { font-size: 1.6rem; margin: 0; }
 
-.task1 h2 {
-  font-size: 1.6rem;
-  margin: 0;
-}
+/* Task 1 */
+.task1 h1,
+.task1 h2 { color: purple; }
+.task1 p { color: gray; margin: 0.5em 0; }
 
-.task1 * {
-  box-sizing: border-box;
-}
-.task1 h1, .task1 h2 {
-  color: purple;
-}
+/* Task 2 */
+.task2 p { margin: 0.5em 0; }
+.task2 ol { border: 2px solid purple; }
+.task2 ul { border: 2px solid orange; }
+.task2 ol,
+.task2 ul { padding: 5px 20px; border-radius: 4px; }
 
-.task1 p {
-  color: gray;
-  margin: 0.5em 0;
-}
+/* Task 3 */
+.task3 h1 { color: purple; }
+.task3 dl { color: gray; margin: 0.5em 0; }
+.task3 dt { font-weight: bold; color: purple; }
+
+/* Task 4 */
+.task4 h1,
+.task4 strong { color: purple; }
+.task4 p,
+.task4 em { margin: 0.5em 0; }
+.task4 em { color: gray; }
