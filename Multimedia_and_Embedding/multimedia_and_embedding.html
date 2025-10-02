@@ -55,29 +55,18 @@
 
          <h1 style="color: red;">Task 3</h1>
         <div class="task3">
-            <h1>Advanced HTML Animals</h1>
-
-<dl>
-  <dt>Llama</dt>
-  <dd>
-    Tall, woolly quadruped, pointy ears. Sometimes rideable, but grumpy and
-    spits a lot. Big fan of list items.
-  </dd>
-  <dt>Anaconda</dt>
-  <dd>
-    A very large constrictor snake; travels rapidly by way of anchors to sneak
-    up on his prey.
-  </dd>
-  <dt>Hippopotamus</dt>
-  <dd>His description is bottomless.</dd>
-</dl>
-        </div> 
-        
-         <h1 style="color: red;">Task 4</h1>
-        <div class="task4">
-            <h1>Emphasis and importance</h1>
+           <p>
+  We do lots of work with Narwhals. <a href="narwhals.html" target="_blank">Find out more about this work</a>.
+</p>
 
 <p>
+  You can <a href="mailto:whales@example.com">email our support team</a> if you have any more questions.
+</p>
+
+<p>
+  You can also <a href="factfile.pdf" target="_blank">download
+  our factfile</a> (PDF, 4MB), which contains lots more information, including an FAQ.
+
   There are <strong>two</strong> things I care about —
   <strong>music</strong> and <strong>friends</strong>. Someday I
   <em>might</em> be able to get my friends interested in each other,
@@ -85,37 +74,61 @@
 </p>
         </div> 
 
-        <h1 style="color: blue; text-align: center;">HTML Text Advanced</h1>
+        
+
+                <h1 style="color: blue; text-align: center;">HTML Images</h1>
         <h1 style="color: red;">Task 1</h1>
+        <div class="task4">
+ <h1>Basic image embed</h1>
+
+<img src="https://github.com/mdn/learning-area/blob/main/html/multimedia-and-embedding/tasks/images/images/blueberries.jpg?raw=true"
+     alt="A pile of small blue berries"
+     width="400" />
+        </div>
+
+                <h1 style="color: red;">Task 2</h1>
         <div class="task5">
-  <h1>Advanced text semantics</h1>
+ <h1>Image and caption</h1>
 
-<p>Let's start with a quote:</p>
+<figure>
+  <img
+    src="https://github.com/mdn/learning-area/blob/main/html/multimedia-and-embedding/tasks/images/firefox.png?raw=true"
+    alt="An abstract flaming fox wrapping around a blue sphere"
+    width="446"
+    height="460" />
+  <figcaption>The 2019 Firefox logo</figcaption>
+</figure>
+        </div>
 
-<blockquote cite="https://developer.mozilla.org/en-US/docs/Learn/Accessibility">
-  <p>
-    <abbr title="HyperText Markup Language">HTML</abbr>, Hypertext Markup
-    Language is by default accessible, if used correctly.
-  </p>
-</blockquote>
 
-<p>
-  <abbr title="Cascading Style Sheets">CSS</abbr>, Cascading Style Sheets, can
-  also be used to make web pages more, or less, accessible.
-</p>
+        <h1 style="color: blue; text-align: center;">Audio and Video</h1>
+        <h1 style="color: red;">Task 1</h1>
+        <div class="task6">
+  <h1>Basic audio embed</h1>
 
-<p>
-  Chemical Formulae: H<sub>2</sub>O (Water), C<sub>2</sub>H<sub>6</sub>O
-  (Ethanol).
-</p>
+<audio
+  controls
+  src="https://github.com/mdn/learning-area/raw/refs/heads/main/html/multimedia-and-embedding/tasks/media-embed/media/audio.mp3"></audio>
+        </div>
 
-<p>
-  Dates:
-  <time datetime="2019-12-25">December 25<sup>th</sup> 2019</time>
-  (Christmas Day),
-  <time datetime="2019-11-02">November 2<sup>nd</sup> 2019</time> (Día de los
-  Muertos).
-</p>
+
+         <h1 style="color: red;">Task 2</h1>
+        <div class="task7">
+  <h1>Video embed</h1>
+
+<video controls width="320" height="240" muted>
+  <source
+    src="https://github.com/mdn/learning-area/raw/refs/heads/main/html/multimedia-and-embedding/tasks/media-embed/media/video.mp4"
+    type="video/mp4" />
+  <source
+    src="https://github.com/mdn/learning-area/raw/refs/heads/main/html/multimedia-and-embedding/tasks/media-embed/media/video.webm"
+    type="video/webm" />
+  <track
+    kind="subtitles"
+    src="https://raw.githubusercontent.com/mdn/learning-area/refs/heads/main/html/multimedia-and-embedding/tasks/media-embed/media/subtitles_en.vtt"
+    srclang="en"
+    label="English" />
+</video>
         </div>
     </main>
 </body>
